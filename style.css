@@ -1,0 +1,67 @@
+body {
+  background: url(./cat-han-W_5Eakb1598-unsplash.jpg);
+  background-size: cover;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 40px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+input {
+  border: 2px solid rgb(60, 60, 155);
+  width: 300px;
+  border-radius: 5px;
+  height: 15px;
+}
+.add {
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid rgb(60, 60, 155);
+}
+
+.todolist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.styling {
+  padding: 5px 20px;
+  height: 25px;
+  background-color: grey;
+  overflow: auto;
+  opacity: 0.7;
+  border: 0px 0px 3px 3px solid green;
+  border-radius: 5px;
+}
+
+.up {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: tomato;
+}
+
+.down {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: turquoise;
+}
+
+.remove {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: springgreen;
+}
